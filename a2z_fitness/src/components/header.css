@@ -17,8 +17,8 @@ body{
 }
 .container{ 
     max-width: 960px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: auto;
     text-align: center;
 }
@@ -41,7 +41,35 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+    
 }
 .header-content{
     z-index: 2;
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    
+}
+.header-content ul{
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 200px;
+
+}
+.header-content li{
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+
+@media(max-width: 960px){
+    .container{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
 }

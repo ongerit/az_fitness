@@ -1,12 +1,14 @@
 import React from 'react'
 import Video from './video'
-import './layout.css'
+import './header.css'
 
-export default({children}) =>(
+const Header = () =>(
     <div>
         <header className='header container'>
            <div className='fullscreen-video-wrap'> 
-                <Video />
+                <Video /> {/* I would like to make this 
+                dynamically populate the video for the index
+                page only */}
            </div>
 
            <div className='header-overlay'>
@@ -23,3 +25,4 @@ export default({children}) =>(
         </header>
     </div>
 )
+export default Header;
