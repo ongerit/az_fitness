@@ -1,7 +1,8 @@
-.section{
-    padding: 20px 0;
+.section-a{
+    height: 500px;
 }
 .section-b{
+    height: 500px;
     background: #333;
     color: white;
 }

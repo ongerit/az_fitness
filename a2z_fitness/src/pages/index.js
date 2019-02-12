@@ -15,6 +15,9 @@ export default () => (
                     Individual training services I provide.
                 </p>
             </div>
+            <div>
+                <img></img>
+            </div>
             </section>
 
             <section className='section section-b'>
