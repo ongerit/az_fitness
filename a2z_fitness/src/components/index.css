@@ -1,8 +1,18 @@
-.section-a{
-    height: 500px;
+.container div{ 
+    flex-direction: row;
+    border: 1px #ccc solid;
+    padding: 15px;
+    flex-wrap: wrap;
 }
-.section-b{
-    height: 500px;
-    background: #333;
-    color: white;
+.pt-container{
+    height: 700px;
+    min-height: 50px;
+    background-image: url('../components/images/Trainer.jpeg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+/* @media(min-width: 768px){
+
+} */

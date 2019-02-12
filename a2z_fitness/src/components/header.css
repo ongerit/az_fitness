@@ -14,8 +14,7 @@ body{
     display: flex;
     align-items: center;
     color: red;
-}
-.container{ 
+
     max-width: 960px;
     padding-left: 2rem;
     padding-right: 2rem;

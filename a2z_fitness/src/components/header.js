@@ -4,7 +4,7 @@ import './header.css'
 
 const Header = () =>(
     <div>
-        <header className='header container'>
+        <header className='header'>
            <div className='fullscreen-video-wrap'> 
                 <Video /> {/* I would like to make this 
                 dynamically populate the video for the index
