@@ -1,5 +1,5 @@
 import React from "react"
-import promo from './promotest.mp4'
+import promo from '../components/images/promotest.mp4'
 
 const Video = () => (
     <div>

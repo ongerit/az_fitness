@@ -1,10 +1,11 @@
 import React from "react"
-import Header from "../components/header";
+import Header from "../components/header"
 import Footer from "../components/footer"
-import '../components/index.css'
-import promo from'../components/images/promo.mov'
 
-/** Home page */
+import '../components/index.css'
+import promo from'../components/images/promotest.mp4'
+
+/**Home page**/
 export default () => (
     <div>
         <Header />
@@ -37,13 +38,17 @@ export default () => (
             </div>
 
             <div className='group-container'>
-                <h1>Group Fitness Classes</h1>
-                <p>
-                    I also host group fitness classes at Signature Fitness.  Come join me in a
-                    fun way to workout.  I host HIIT, Kettleball sessions.  
-                </p>
+                <div className='signature'>
+                    <h1>Group Fitness Classes</h1>
+                    <p>
+                        I also host group fitness classes at Signature Fitness.  Come join me in a
+                        fun way to workout.  I host HIIT, Kettleball sessions.  
+                    </p>
+                </div>
                 <div className='group-video'>
-                    <video src={promo}></video>{/**I have to cut the video */}
+                    <video controls='controls' width='550' height='350'>
+                        <source src={promo} type='video/mp4'></source>
+                    </video>
                 </div>
             </div>
         </div>
