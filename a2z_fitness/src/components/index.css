@@ -1,18 +1,32 @@
-.container div{ 
+.container{ 
     flex-direction: row;
     border: 1px #ccc solid;
-    padding: 15px;
+    
     flex-wrap: wrap;
 }
-.pt-container{
-    height: 700px;
+.sports-container{
+    height: 500px;
     min-height: 50px;
-    background-image: url('../components/images/Trainer.jpeg');
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../components/images/sports-training.jpg')
 }
-
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: 24px;
+}
+.pt-container{
+    height: 400px;
+}
+.group-container{
+    height: 500px;
+}
 /* @media(min-width: 768px){
 
 } */
