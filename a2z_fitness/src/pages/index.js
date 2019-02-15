@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header";
 import Footer from "../components/footer"
 import '../components/index.css'
+import promo from'../components/images/promo.mov'
 
 /** Home page */
 export default () => (
@@ -41,7 +42,9 @@ export default () => (
                     I also host group fitness classes at Signature Fitness.  Come join me in a
                     fun way to workout.  I host HIIT, Kettleball sessions.  
                 </p>
-
+                <div className='group-video'>
+                    <video src={promo}></video>{/**I have to cut the video */}
+                </div>
             </div>
         </div>
         <Footer />
