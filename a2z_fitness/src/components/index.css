@@ -5,21 +5,38 @@
     flex-wrap: wrap;
 }
 .sports-container{
-    height: 500px;
-    min-height: 50px;
+    height: 1000px;
+    width: auto;
+    max-width: none;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: scroll;
-    background-position: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #454649
+}
+.sports-about{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    width: 50%;
+    float: left;
+    border: 5px solid #FFE979;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    color: #DB5461;
+}
+.sports-about h1{
+    font-size: 45px;
+    padding-top: 50px;
+}
+.sports-about p{
+    padding: 30px 50px;
+}
+.sports-img{
+    width: 50%;
+    background-image: url('../components/images/ptraining.jpg');
+    background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../components/images/sports-training.jpg')
-}
-.description{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
-    font-size: 24px;
 }
 .pt-container{
     height: 400px;

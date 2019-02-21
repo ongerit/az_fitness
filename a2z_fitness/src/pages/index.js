@@ -5,6 +5,17 @@ import Footer from "../components/footer"
 import '../components/index.css'
 import promo from'../components/images/promotest.mp4'
 
+const buttonStyles = {
+    fontSize: "13px",
+    textAlign: "center",
+    color: "#fff",
+    outline: "none",
+    padding: "12px 60px",
+    boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
+    backgroundColor: "#DB5461",
+    borderRadius: "6px",
+    letterSpacing: "1.5px",
+}
 /**Home page**/
 export default () => (
     <div>
@@ -12,15 +23,21 @@ export default () => (
         <div className='container'>
 
             <div className='sports-container'>
-                <div className='description'>
+                <div className='sports-about'>
                     <h1>Sports Skills Training</h1>
                     <p>
                         A2Z Fitness provides elite sports specific training. The 
                         training will help bring out the best out of any athlete 
-                        skills, conditioning, strength.
+                        skills, conditioning, strength.  I have experience as a collegiate
+                        athlete and trained with the best athletes.  I have trained top 
+                        athletes that have gone to play in both the collegiate and professional
+                        level.
                     </p>
-                    <h4>If you want to become the best in your sport.  My program will get you there</h4>
-                    <button>Contact Me</button>
+                    <p>If you want to take your game to the next level. My program is for you!</p>
+                    <button style={buttonStyles}>Join Now</button>
+                </div>
+                <div className='sports-img'>
+                    
                 </div>
             </div>
            
