@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-
+import Video from '../components/video'
 import '../components/index.css'
 import promo from'../components/images/promotest.mp4'
 
@@ -20,8 +20,8 @@ const buttonStyles = {
 export default () => (
     <div>
         <Header />
+        <Video />
         <div className='container'>
-
             <div className='sports-container'>
                 <div className='sports-about'>
                     <h1>Sports Skills Training</h1>
@@ -36,31 +36,38 @@ export default () => (
                     <p>If you want to take your game to the next level. My program is for you!</p>
                     <button style={buttonStyles}>Join Now</button>
                 </div>
-                <div className='sports-img'>
-                    
+                <div className='sports-img'></div>
+            </div>
+            <div className='pt-container'>
+                <div className='pt-about'>
+                    <h1>Personal Trainer & Nutrition</h1>
+                    <p>
+                        My personal training and nutrition plan is top notch.  I do not 
+                        promise quick results like others.  I promise a plan that will allow
+                        you to achieve your fitness goals without feeling constraint.  If you follow
+                        my plan you will achieve all your fitness goals and still be able to eat all
+                        the foods you enjoy. Within reason of course!  If you want more information 
+                        please contact me. 
+                    </p>
+                    <div className='pt-btn'>
+                    <button style={buttonStyles}>Learn More</button>
+                    </div>
                 </div>
             </div>
-           
-            <div className='pt-container'>
-                <h1>Personal Trainer & Nutrition</h1>
-                <p>
-                    My personal training and nutrition plan is top notch.  I do not 
-                    promise quick results like others.  I promise a plan that will allow
-                    you to achieve your fitness goals without feeling constraint.  If you follow
-                    my plan you will achieve all your fitness goals and still be able to eat all
-                    the foods you enjoy. Within reason of course!  If you want more information 
-                    please contact me. 
-                </p>
-                <button>Learn More</button>
-            </div>
-
+       
             <div className='group-container'>
                 <div className='signature'>
+                  <div className='sig-about'>
                     <h1>Group Fitness Classes</h1>
                     <p>
                         I also host group fitness classes at Signature Fitness.  Come join me in a
-                        fun way to workout.  I host HIIT, Kettleball sessions.  
+                        fun way to workout.  I host HIIT, Kettleball sessions. My classes
+                        range from 5-30 people each class. The classes are very intimate
+                        which allows me to work with everyone and guide them through 
+                        the workout.  My classes are on tuesdays and thursdays at 7 pm and Friday mornings
+                        at 6 am.  The classes are held at <a href='www.signature.com' target='_blank'>signature fitness.</a> 
                     </p>
+                  </div>
                 </div>
                 <div className='group-video'>
                     <video controls='controls' width='550' height='350'>

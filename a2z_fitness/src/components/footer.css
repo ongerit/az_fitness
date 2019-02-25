@@ -1,16 +1,35 @@
-.footer{
-    background: #A5C7D3;
+footer{
+    height: 100px;
     
 }
 .footer-container{
+    background-color: #E3E3E3;
     text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .company{
-    padding-left: 50px;
-    margin: 0;
+    padding-left: 25px;
+    margin: 0 auto;
     font-size: 20px;
 }
 .social{
-    padding-left: 25px;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+.social-1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.social-1{
+    color: #fb3958;
+}
+.social-2{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.social-2 a{
+    color: #c4302b;
 }

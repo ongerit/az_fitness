@@ -1,15 +1,16 @@
 import React from 'react'
 import Video from './video'
 import './header.css'
+import logo from '../components/images/logo.jpg'
 
 const Header = () =>(
     <div>
         <header className='header'>
-           <div className='fullscreen-video-wrap'> 
-                <Video /> {/* I would like to make this 
-                dynamically populate the video for the index
-                page only */}
-           </div>
+           {/* <div className='fullscreen-video-wrap'>  */}
+                {/* <Video /> {/* I would like to make this  */}
+                {/* dynamically populate the video for the index
+                page only */} 
+           {/* </div> */}
 
            <div className='header-overlay'>
                 <div className='header-content'>
