@@ -18,25 +18,20 @@ const buttonStyles = {
 }
 /**Home page**/
 export default () => (
-    <div>
+    <div> 
         <Header />
         <Video />
         <div className='container'>
             <div className='sports-container'>
                 <div className='sports-about'>
-                    <h1>Sports Skills Training</h1>
+                    <h2>Sports Training</h2>
                     <p>
-                        A2Z Fitness provides elite sports specific training. The 
-                        training will help bring out the best out of any athlete 
-                        skills, conditioning, strength.  I have experience as a collegiate
-                        athlete and trained with the best athletes.  I have trained top 
-                        athletes that have gone to play in both the collegiate and professional
-                        level.
-                    </p>
-                    <p>If you want to take your game to the next level. My program is for you!</p>
+                        A2Z Sports Training program is guaranteed to help you reach the next level.
+                        If you are ready to take the next step in your game.  Joining my program is sure to 
+                        help you advance in your sport.  
+                    </p>                  
                     <button style={buttonStyles}>Join Now</button>
                 </div>
-                <div className='sports-img'></div>
             </div>
             <div className='pt-container'>
                 <div className='pt-about'>
@@ -70,7 +65,7 @@ export default () => (
                   </div>
                 </div>
                 <div className='group-video'>
-                    <video controls='controls' width='550' height='350'>
+                    <video controls='controls' width='650' height='450'>
                         <source src={promo} type='video/mp4'></source>
                     </video>
                 </div>

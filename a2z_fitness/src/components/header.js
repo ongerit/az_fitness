@@ -6,7 +6,6 @@ import logo from '../components/images/logo.png'
 const Header = () =>(
     <div>
         <header className='header'>
-            {/* <div className='header-overlay'> */}
             <div className='header-content'>
                 <div className='header-logo'>
                     <img src={logo} alt='a2z logo'></img>
@@ -20,14 +19,7 @@ const Header = () =>(
                     </ul>
                 </div>
                </div>
-            {/* </div> */}
         </header>
     </div>
 )
 export default Header;
-            /**code to import video component */
-           {/* <div className='fullscreen-video-wrap'>  */}
-                {/* <Video /> {/* I would like to make this  */}
-                {/* dynamically populate the video for the index
-                page only */} 
-           {/* </div> */}

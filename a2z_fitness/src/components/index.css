@@ -5,41 +5,43 @@
 }
 /*Sports specific training styling*/
 .sports-container{
-    height: auto;
-    width: auto;
-    max-width: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
     overflow: hidden;
     display: flex;
-    flex-direction: row;
-    background-color: #454649
+    flex-direction: row-reverse;
+    background-image: url('../components/images/amine.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 15%;
 }
 .sports-about{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     width: 50%;
-    float: left;
-    border: 5px solid #FFE979;
-    margin: 20px;
-    padding: 25px;
+    float: right;
+    margin: 0 auto;
+    padding: 175px 25px 25px 25px;
     text-align: center;
-    color: #DB5461;
+    color: black;
 }
-.sports-about h1{
-    font-size: 45px;
-    padding-top: 50px;
+.sports-about h2{
+    font-size: 50px;
+    padding-top: 105px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .sports-about p{
-    padding: 30px 50px;
-}
-.sports-img{
-    width: 50%;
-    background-image: url('../components/images/ptraining.jpg');
-    background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 200px;
+    margin-bottom: 50px;
 }
 /*Personal training section Styling*/
-
 .pt-container{
     height: 500px;
     background-color: #f9f9f9;
@@ -59,11 +61,14 @@
 }
 /*Group training section*/
 .group-container{
-    height: 500px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
     display: flex;
 }
 .signature{
-    width: 50%;
+    width: 40%;
     font-size: 18px;
 }
 .sig-about{
@@ -72,8 +77,10 @@
     padding-right: 50px;
 }
 .group-video{
+    width: 60%;
     margin: 0 auto;
     padding-top: 55px;
+    padding-left: 50px;
 }
 
 /* @media(min-width: 768px){
