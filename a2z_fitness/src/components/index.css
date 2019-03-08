@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 15%;
+    filter: brightness(90%);
 }
 .sports-about{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,7 +27,8 @@
     margin: 0 auto;
     padding: 175px 25px 25px 25px;
     text-align: center;
-    color: black;
+    color: white;
+    z-index: 2;
 }
 .sports-about h2{
     font-size: 50px;
