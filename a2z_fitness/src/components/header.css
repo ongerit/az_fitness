@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +17,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    color: red;
+  
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -53,7 +56,7 @@ body{
     margin-left: auto;
     position: absolute;
     top: 0;
-    height: 100px;
+    height: 100px;  
 }
 .header-logo img{
     max-width: 100%;
@@ -63,10 +66,15 @@ body{
     height: 100%;
     padding-top: 20px;
     width: 20%;
+    margin-right: 0.5rem;
 }
 
 .header-nav{
     width: 80%;
+
+}
+.header-nav a{
+    color: white;
 }
 .header-nav li:hover{
     background-color: rgb(207, 222, 243);
@@ -75,18 +83,18 @@ body{
 .header-content h1{
     font-size: 50px;
     margin-bottom: 0;
-    
 }
+
 .header-content ul{
-    text-decoration: none;
     font-size: 1.5rem;
     text-align: center;
     padding-left: 200px;
-
 }
 .header-content li{
     padding: 1rem 2rem;
     display: inline-block;
+    color: red;
+
 }
 
 @media(max-width: 960px){
