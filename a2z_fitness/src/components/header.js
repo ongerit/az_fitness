@@ -1,9 +1,9 @@
 import React from 'react'
-
 import './header.css'
 import logo from '../components/images/logo.png'
-import ToggleButton from '../components/ToggleButton';
-import './ToggleButton.css'
+import ToggleButton from './SideNav/ToggleButton';
+import './SideNav/ToggleButton.css';
+import SideNav from '../components/SideNav/SideNav';
 
 const Header = () =>(
     <div>
@@ -15,6 +15,7 @@ const Header = () =>(
                 <div>
                     <ToggleButton />
                 </div>
+                <SideNav />
                 <div className='header-nav'> 
                     <ul>
                         <li><a href='/'>Home</a></li>

@@ -17,7 +17,6 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-  
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -76,8 +75,9 @@ body{
 .header-nav a{
     color: white;
 }
-.header-nav li:hover{
-    background-color: rgb(207, 222, 243);
+.header-nav a:hover,
+.header-nav a:active{
+    background-color: #1ABC9C;
     cursor: pointer;
 }
 .header-content h1{

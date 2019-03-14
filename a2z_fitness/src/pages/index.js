@@ -5,6 +5,8 @@ import Video from '../components/video'
 import '../components/index.css'
 import promo from'../components/images/promotest.mp4'
 
+
+
 const buttonStyles = {
     fontSize: "13px",
     textAlign: "center",
@@ -21,6 +23,7 @@ export default () => (
     <div> 
         <Header />
         <Video />
+        
         <div className='container'>
             <div className='sports-container'>
                 <div className='sports-about'>
