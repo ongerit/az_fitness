@@ -2,10 +2,12 @@ footer{
     height: 100px;
     
 }
+
 .footer-container{
-    background: #fff;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #FFFFFF, #ECE9E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
     text-align: center;
     display: flex;
     flex-direction: column-reverse;
@@ -14,6 +16,7 @@ footer{
     padding-left: 25px;
     margin: 0 auto;
     font-size: 20px;
+    color: white;
 }
 .social{
     display: flex;

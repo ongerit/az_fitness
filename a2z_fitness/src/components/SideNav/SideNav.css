@@ -32,3 +32,8 @@
 .side-nav a:active{
     color: #1ABC9C;
 }
+@media(min-width: 960px){
+    .menu{
+        display: none;
+    }
+}

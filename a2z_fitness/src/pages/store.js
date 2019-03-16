@@ -1,9 +1,14 @@
 import React from 'react'
+import './store.css'
 
-const Store = () =>(
-    <div>
-        
-    </div>
-)
+class Store extends React.Component{
+    remder(){
+        return(
+           <React.Fragment>
+                <h1>hello</h1>
+           </React.Fragment>
+        )
+    }
+}
 
 export default Store;

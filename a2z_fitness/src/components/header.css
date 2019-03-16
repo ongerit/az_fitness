@@ -67,17 +67,20 @@ body{
     width: 20%;
     margin-right: 0.5rem;
 }
-
+.menu{
+    flex-direction: column-reverse;
+    width: 100px;
+    float: right;
+}
 .header-nav{
     width: 80%;
-
 }
 .header-nav a{
     color: white;
 }
 .header-nav a:hover,
 .header-nav a:active{
-    background-color: #1ABC9C;
+    color: var(--tds-color--white);
     cursor: pointer;
 }
 .header-content h1{
@@ -93,7 +96,7 @@ body{
 .header-content li{
     padding: 1rem 2rem;
     display: inline-block;
-    color: red;
+    color: blue;
 
 }
 
@@ -102,4 +105,8 @@ body{
         padding-right: 3rem;
         padding-left: 3rem;
     }
+    .header-nav{
+        display: none;
+    }
+   
 }

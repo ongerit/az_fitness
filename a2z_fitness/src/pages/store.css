@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f3f3f3;
+    color: #232528;
+}
+.text-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.text-blue{
+    color: blue;
+}
+.text-bright{
+    color: lightblue;
+}
