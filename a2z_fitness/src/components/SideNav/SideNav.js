@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby"
 import './SideNav.css';
 import ToggleButton from './ToggleButton'
 
@@ -8,10 +9,10 @@ const SideNav = props =>(
             <ToggleButton click={props.navClickHandler}/>
         </div>
         <ul>
-            <li><a href='/'>Home</a></li>
-            <li><a href='/'>Nutrition</a></li>
-            <li><a href='/'>Store</a></li>
-            <li><a href='/'>Contact</a></li>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/'>Nutrition</Link></li>
+            <li><Link to='/store/'>Store</Link></li>
+            <li><Link to='/'>Contact</Link></li>
         </ul>
     </nav> 
 );
